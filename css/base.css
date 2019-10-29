@@ -1,0 +1,37 @@
+html {
+    max-width: 960px;
+    margin: auto;
+}
+header, footer, main, div, p {
+    border: 1px black solid;
+    background-color: gray;
+    text-align: center;
+    vertical-align: middle;
+}
+@media (max-width: 960px) and
+(min-width: 768px) {
+    html {
+        max-width: 100%;
+        margin: auto;
+    }
+    header, footer, main, div, p {
+        border: 1px black solid;
+        background-color: plum;
+        text-align: center;
+        vertical-align: middle;
+    }
+}
+@media (max-width: 767px)
+ and (min-width: 480px){
+    html {
+        max-width: 480px;
+        margin: auto;
+    }
+    header, footer, main, div, p {
+        border: 1px black solid;
+        background-color: rgb(183, 243, 237);
+        text-align: center;
+        vertical-align: middle;
+    }
+}
+
